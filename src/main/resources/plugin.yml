@@ -2,3 +2,5 @@ name: LawnMowerGame
 version: '${project.version}'
 main: lawnmower.lawnmowergame.LawnMowerGame
 authors: [ R1DD1 ]
+commands:
+  start:

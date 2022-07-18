@@ -21,6 +21,7 @@ public final class LawnMowerGame extends JavaPlugin {
         lawnMower.createWorld();
 
         getServer().getPluginManager().registerEvents(new LawnMowerMechanic(this), this);
+        getCommand("start").setExecutor(new Commands());
     }
 
     //DB
